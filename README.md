@@ -66,9 +66,13 @@ Genere usted el código para analizar la anchura entre pasadas para un solape de
 ## 2. Diseño del plan de vuelo con un planificador de misión de código abierto
 
 Una vez calculados los parámetros de vuelo según el tipo de misión explicada en este capítulo, se procederá al diseño de la misión de captura de datos propiamente dicho. El primer objetivo de esta tarea será descargar e instalar Mission Planner, el cual se puede descargar de la web de Mission Planner de Ardupilot. (https://ardupilot.org/planner/docs/mission-planner-installation.html).
+
 El segundo objetivo será leer la documentación de cómo diseñar un plan de vuelo con dicha herramienta. Como resumen y/o guía rápida hay que seguir los siguientes pasos para el diseño de un plan de vuelo con la herramienta de diseño de misión de un autopiloto y son las siguientes:
  •	Definir la zona de vuelo con un polígono
  •	Definir el tipo de cámara
  •	Definir el tipo de vuelo
  •	Generar el plan de vuelo con waypoints y tareas en los mismos
  •	Exportar el plan de vuelo
+
+ ### Demostración de cómo realizar un plan de vuelo de fotogrametría
+ 
