@@ -16,7 +16,7 @@ image_weight = 640
 image_height = 480
 Altura_vuelo = 120
 GSD = (Ancho_Sensor*Altura_vuelo*100)/(focal*image_weight)
-print(paste0("el GSD es: ",GSD))
+print("el GSD es: ",GSD)
 ```
 
 ```r annotate
@@ -25,7 +25,7 @@ print(paste0("el GSD es: ",GSD))
 
 ```r
 Ancho_imagen = GSD*image_weight/100
-print(paste0("El ancho de imagen en metros es: ",Ancho_imagen))
+print("El ancho de imagen en metros es: ",Ancho_imagen)
 ```
 
 ```r annotate
@@ -34,7 +34,7 @@ print(paste0("El ancho de imagen en metros es: ",Ancho_imagen))
 
 ```r
 Alto_imagen = GSD*image_height/100
-print(paste0("El alto de imagen en metros es: ",Alto_imagen)))
+print("El alto de imagen en metros es: ",Alto_imagen)
 ```
 
 ```r annotate
@@ -54,7 +54,7 @@ Solape
 #La velocidad de la plataforma son 5 m/s
 velocidad = 5
 trigger = (Alto_imagen - Solape)/velocidad
-print(paste0("el trigger es cada X segundos: ",trigger))
+print("el trigger es cada X segundos: ",trigger)
 ```
 
 ```r annotate
